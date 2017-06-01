@@ -4,7 +4,7 @@
 STM32 based Line Follower. Autonomous robot designed to complete specified tracks without any human intervention.
 
 ## Description 
-The vital component required for projects functioning is STM32f407vg microcontroller. Board's power supply is 2600mAh power bank connected to USB port. Whole platform is put into motion by two DAGU 5V offset gear motors mounted in the rear. Pololu TB6612FNG Dual Motor Driver Carrier is used, allowing for convenient steering with PWM. It also uses 2 channels to supply Motors from second power supply, which is 7.2V Ni-Mh battery pack. Robot is  designed to move along black line on a white surface. Its' decisions are influenced by input from 3 Pololu QTR-3RC reflectance sensor array consisting of 3 sensors each. The main components behind the sensor are an IR diode and photoresistor. To read the data you need to:
+The vital component required for project's functioning is STM32f407vg microcontroller. Board's power supply is 2600mAh power bank connected to USB port. Whole platform is put into motion by two DAGU 5V offset gear motors mounted in the rear. Pololu TB6612FNG Dual Motor Driver Carrier is used, allowing for convenient steering with PWM. It also uses 2 channels to supply Motors from a second power supply, which is 7.2V Ni-Mh battery pack. Robot is  designed to move along black line on a white surface. Its' decisions are influenced by input from 3 Pololu QTR-3RC reflectance sensor arrays consisting of 3 sensors each. The main components of a sensor are an IR diode and photoresistor. To read the data you need to:
 * Set the I/O line to an output and drive it high.
 * Wait several microseconds to give the 2.2 nF capacitor node time to reach 5 V.
 * Make the I/O line an input (high impedance).
