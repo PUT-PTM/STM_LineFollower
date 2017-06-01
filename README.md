@@ -16,6 +16,7 @@ Attributions - jeśli wykorzystano jakieś fragmenty kodu - wskazać skąd, jeś
 https://github.com/xenovacivus/STM32DiscoveryVCP
 
 License - podać licencję dla swojego projektu (sprawdzić czy plik LICENSE zawiera odpowiedni tekst), proponowana licencja: MIT
+
 Credits - Adam Dębczak, Olaf Bergmann, Darek Krajewski
 
 The project was conducted during the Microprocessor Lab course held by the Institute of Control and Information Engineering, Poznan University of Technology.
